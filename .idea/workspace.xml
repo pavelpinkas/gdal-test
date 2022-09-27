@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b2137d4-c4db-4d71-9473-16d83b477b2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CropTypeMapMR/scripts/Launch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECMWF/AlternativeSourceAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECMWF/CertificateList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECMWF/download_ecmwf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonoRepoModules/geoutil/GSUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonoRepoModules/geoutil/HarvesianDistance.py " afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.env" beforeDir="false" afterPath="$PROJECT_DIR$/../.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMapImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRunImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUnicornConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/AGDPoriginal.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/AppImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/BaseImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/BaseMapImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/CRunImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-app.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-test-env.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check-creds.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cogeo-convert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../color-scales/corn.colors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../color-scales/corn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../color-scales/fcsa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../color-scales/ndvi.colors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../color-scales/soy.colors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../color-scales/soy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../color-scales/wheat.colors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../color-scales/wheat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cr-test/AppImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cr-test/BaseImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cr-test/BaseMapImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cr-test/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cr-test/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cr-test/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../credentials/agdp-credentials.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../credentials/agrosAPI-83b650728e64.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../credentials/agrosapi-213321-0fcff8ae350a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../credentials/creds1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../credentials/creds2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../credentials/notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cron.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-auth.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-recipes/AppImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-recipes/BaseImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-recipes/BaseMapImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-recipes/CRunImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/ENDPOINTS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/help.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/help2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ease.geojson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../get-dev-data.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gs-secret.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install-deps.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../launch.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../load-libraries.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../load-samples.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/FCSA/Instructions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/FCSA/ease.geojson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/FCSA/easement-output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/FCSA/fcsa-input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/FCSA/fcsa-output.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/FCSA/input-tree.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/FCSA/output-tree.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/FCSA/sample-output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/FCSA/soil_example.geojson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/FCSA/soil_rating_example.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/FCSA/soil_rating_illustration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/agdp-service-releases.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/drawings/AgDPStructure.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/drawings/AgDPstructure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/misc/state-FP-codes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../put-dev-data.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/AppImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/BaseImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/BaseMapImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/CRunImage.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/build-app.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements-build.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/AGDPConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/AGDPException.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/AGDPJob.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/AGDPOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/AGDPRequestLog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/APIs/Agrograph/AgAPICoverage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/APIs/Agrograph/AgAPIUnitConverter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/APIs/Agrograph/AgAPIVar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/APIs/Agrograph/AgAPIVarNames.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/APIs/Agrograph/AgrographAPI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/APIs/Agrograph/AgrographAPIStructure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/APIs/Agrograph/AgrographAPIUnitTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/APIs/Agrograph/AuxNDVs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/APIs/Agrograph/RandomFieldSelector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/AgColorScales.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Aggreggator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/BandSplitter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/CLUCalculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/CLUIdentifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/CLURasterizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/CLUResultMerge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/CoreFill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/CropAreaCalculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/CropDistributionData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Crops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Dictionaries/CDLCropClassification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Dictionaries/HML.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Dictionaries/NLCDTypes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Dictionaries/RiskLevels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/AGRCounty.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/AGRDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/AGRMapLibrary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/AGRRegionData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/AgRiskExtractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/CSVPackager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/IdUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/ParcelDB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/ParcelData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/ParcelQueries.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/ParcelQuery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/ParcelSalesMatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/AgroRisk/agrisk-training.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/AgrographDataLibrary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/AgrographDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/AgrographExtractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/DataRegion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/DatasetImporter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/ExtractionInput.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/ExtractionResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/FeatureFinder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/LandResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/ManagementResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/NoExtractionException.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/ProductionResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/RiskResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/Agrograph/SustainabilityResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/DLL/DLLBaseLibraryReprojector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/DLL/DLLBaseMapLibrary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/DLL/DLLExtractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/DLL/DLLInitializator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/DLL/DLLRiskScore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/ExtractorSelector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/CoreLogicFilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/CoreLogicGeometryCheck.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/CoreLogicParcelDatabaseIngest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSABaseMapImaging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSABuildingAnalysisVerification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSABuildingRasterMap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSABuildingRasterizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSABuildingsReport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSAConfidenceDigest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSADb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSAExceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSAExtractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSAInputCheck.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSAMapLibrary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSAPolygonizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSAProblems.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSATestDate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSAVersion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSAorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FCSAormBase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/FieldExtractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/LandClassConfidence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/LandCoverCodes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/NAUTLISId.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/ValuationDate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/FCSA/example-output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/ImageAdjuster.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/MajorityFilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/MapColorizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/PLDImage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/PLDImageCollection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/PLDImageException.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/PLDImageOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/AgRiskPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/BinaryPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/CDLCropClassificationPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/CropScales.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/FCSALandCoverPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/FractionPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/GenericPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/IrrigationPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/LMHPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/MultiStopPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/NLCDPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/PaletteRegistry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/PentaphorePalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/RGBAColor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/SemaphorePalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/TrinaryPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/VolatilityPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Extractors/PLD/Palettes/YieldPalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/FieldBoundariesFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/FieldIngest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/GeneralException.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/GeoCookieCutter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/GeoExtractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/GeoFinder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/GeoTransform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/GeometryInputValidator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Loggers/AgrosDB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Loggers/DataLogger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Logging/AGDPConsole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Logging/AGDPLogRetriever.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Logging/AGDPLogger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Logging/LogBuilder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/MapColorizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/MapConditioner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/MapIndex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/MapSlicer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/MultiColorSweep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/ParcelSweeper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/PerformanceTracker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/QuickSweep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/RasterAligner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Reprojector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/SpatialVolatilityCalculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/StopWatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/TemporalVolatilityCalculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tests/AgDPServiceRequest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tests/AgDPServiceTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tests/AgDPServiceTestCollection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tests/AgroRiskBatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tests/DictionaryComparator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tests/PostDeploymentSummary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tests/PostDeploymentTests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tests/t.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tests/t2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tests/t3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/TileMaker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/TileUploader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/TilingGrid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tools/BandStack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tools/CDLColorScaleCompiler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tools/CrashInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tools/FieldIngester.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tools/GeometryIdentifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tools/IrrigationConfidenceStats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tools/LogExtractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tools/MapClipper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tools/RasterWarpTool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tools/Rasterizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Tools/build-app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/AGDPResponse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/DictionaryUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/FileUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/GeometryUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/RasterUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/ShapeFileUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/Singleton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/TmpFileUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/TypeUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/UniqueID.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/UnitUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/VectorUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/WorkDir.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Utils/WorkFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/ValueDistributionCalculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/Versioning/AGDPVersion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/XDB/AgAPIExtract2DB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/XDB/AgrosDB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/XDB/DBColumn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/XDB/DBForeignKey.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/XDB/DBIndex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/XDB/DBTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/ZonalAverageCalculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/mypy.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../skeleton/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../skeleton/agrosapi-213321-0fcff8ae350a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../skeleton/app.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../skeleton/build-test-env.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../skeleton/launch.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../skeleton/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../skeleton/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testenv.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/AgRisk/postprocess-all.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/Agrograph/splitbands.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/DLL/reproject-map.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/DLL/reproject-partitions.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/FCSA/back1y.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/FCSA/convert-esri-laea.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/FCSA/fcsa-buildings.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/FCSA/fix-map.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/FCSA/just-repack-map.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/FCSA/mosaic-maps.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/FCSA/mosaic-maps2.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/FCSA/postprocess-all.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/FCSA/prepare-maps.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/FCSA/set-ndv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/FCSA/update-maps.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/init-tools.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/DataSampler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/RandomPixelSampler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/StopWatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/app.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/build-test-env.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/credentials/agrosapi-213321-0fcff8ae350a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/install-deps.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/launch.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/requirements-build.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vfs/requirements.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FJrrz1vGEZGoDBzJtguYlh8aN5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="gdal-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b2137d4-c4db-4d71-9473-16d83b477b2e" name="Changes" comment="" />
+      <created>1664221230612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664221230612</updated>
+      <workItem from="1664221231905" duration="4521000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gdal_test$main.coverage" NAME="main Coverage Results" MODIFIED="1664225523911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

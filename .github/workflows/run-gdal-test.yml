@@ -1,0 +1,53 @@
+name: Launch GDAL Test App
+
+on:
+  # Allow manual runs
+  workflow_dispatch:
+    inputs:
+      environment:
+        required: true
+        type: choice
+        description: Make a choice
+        options:
+          - dev
+          - uat
+          - prod
+env:
+  PROJECT_ID: agrosapi-213321
+  PYTHON_VERSION: "3.8"
+  POETRY_VERSION: "1.2"
+
+jobs:
+  launch-app:  
+    name: GDAL Test 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Authenticate GCP
+        uses: "google-github-actions/auth@v0"
+        with:
+          credentials_json: "${{ secrets.SERVICE_ACCOUNT_KEY }}"
+
+      - name: Setup gcloud
+        uses: "google-github-actions/setup-gcloud@v0"
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      # - name: Setup Poetry
+      #  uses: abatilo/actions-poetry@v2.0.0
+      #  with:
+      #  poetry-version: ${{ env.POETRY_VERSION }}
+
+      # - name: Install dependencies
+      #   run: |
+      #    (cd ./lib/gcp && poetry install)
+      #    (cd ./processing/example_app && poetry install)
+
+      - name: Run example_app
+        working-directory: ./processing/
+        run: poetry run python gars_v2
